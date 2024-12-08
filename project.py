@@ -4,7 +4,7 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
-model = tf.keras.models.load_model('C:\\Users\\ASUS\\Desktop\\project d\\dementia_prediction_model.h5')
+model = tf.keras.models.load_model('dementia_prediction_model.h5')
 
 def preprocess_input(data):
     data = pd.DataFrame([data])
